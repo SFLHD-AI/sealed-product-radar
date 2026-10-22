@@ -1,0 +1,60 @@
+{
+  "operation": "EdgeOrderBook",
+  "variables": {
+    "input": {
+      "assetConfigurationId": "cfg_sv151_bundle",
+      "marketId": "mkt_vault"
+    }
+  },
+  "response": {
+    "data": {
+      "getOrderBook": {
+        "error": null,
+        "sequence": "990001",
+        "serverNow": "2026-10-21T02:00:00Z",
+        "bids": [
+          {
+            "priceCents": 3900,
+            "quantity": 20,
+            "numMakers": 6,
+            "restingSince": "2026-10-20T14:00:00Z",
+            "lastChangedAt": "2026-10-20T14:00:00Z"
+          },
+          {
+            "priceCents": 3800,
+            "quantity": 40,
+            "numMakers": 9,
+            "restingSince": "2026-10-19T09:00:00Z",
+            "lastChangedAt": "2026-10-19T09:00:00Z"
+          }
+        ],
+        "asks": [
+          {
+            "priceCents": 4200,
+            "quantity": 12,
+            "numMakers": 4,
+            "restingSince": "2026-10-20T20:00:00Z",
+            "lastChangedAt": "2026-10-20T20:00:00Z"
+          },
+          {
+            "priceCents": 4300,
+            "quantity": 30,
+            "numMakers": 7,
+            "restingSince": "2026-10-19T10:00:00Z",
+            "lastChangedAt": "2026-10-19T10:00:00Z"
+          }
+        ],
+        "summary": {
+          "topBidCents": 3900,
+          "topAskCents": 4200,
+          "midCents": 4050,
+          "bidUnits": 60,
+          "askUnits": 42,
+          "bidDepthCents": 230000,
+          "askDepthCents": 179400,
+          "imbalancePercent": 17.6
+        }
+      }
+    }
+  }
+}

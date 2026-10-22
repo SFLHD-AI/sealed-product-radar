@@ -1,0 +1,24 @@
+{
+  "operation": "EdgeOrderQuote",
+  "variables": {},
+  "response": {
+    "data": {
+      "getOrderQuote": {
+        "error": null,
+        "quote": {
+          "side": "BUY",
+          "requestedQuantity": 1,
+          "fillableQuantity": 1,
+          "subtotalCents": 27400,
+          "feeTotalCents": 0,
+          "totalCents": 27400,
+          "effectiveUnitPriceCents": 27400,
+          "worstPriceCents": 27400,
+          "worstAllInPriceCents": 27400,
+          "levels": [],
+          "marketId": null
+        }
+      }
+    }
+  }
+}

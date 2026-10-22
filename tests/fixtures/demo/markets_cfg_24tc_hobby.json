@@ -1,0 +1,51 @@
+{
+  "operation": "EdgeProductMarkets",
+  "variables": {
+    "input": {
+      "assetConfigurationId": "cfg_24tc_hobby"
+    }
+  },
+  "response": {
+    "data": {
+      "getProductMarkets": {
+        "error": null,
+        "markets": [
+          {
+            "market": {
+              "id": "mkt_vault",
+              "displayName": "Vault",
+              "isVaulted": true,
+              "visibility": "PUBLIC"
+            },
+            "canBuy": true,
+            "canSell": true,
+            "canBid": true,
+            "canAsk": true,
+            "associations": [
+              {
+                "tradingState": "ACTIVE"
+              }
+            ]
+          },
+          {
+            "market": {
+              "id": "mkt_ship",
+              "displayName": "Ship",
+              "isVaulted": false,
+              "visibility": "PUBLIC"
+            },
+            "canBuy": true,
+            "canSell": true,
+            "canBid": true,
+            "canAsk": true,
+            "associations": [
+              {
+                "tradingState": "ACTIVE"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

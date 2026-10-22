@@ -1,0 +1,38 @@
+{
+  "operation": "EdgeOrderBook",
+  "variables": {
+    "input": {
+      "assetConfigurationId": "cfg_24tc_jumbo",
+      "marketId": "mkt_ship"
+    }
+  },
+  "response": {
+    "data": {
+      "getOrderBook": {
+        "error": null,
+        "sequence": "77",
+        "serverNow": "2026-10-21T02:00:00Z",
+        "bids": [],
+        "asks": [
+          {
+            "priceCents": 48000,
+            "quantity": 2,
+            "numMakers": 1,
+            "restingSince": "2026-10-19T10:00:00Z",
+            "lastChangedAt": "2026-10-19T10:00:00Z"
+          }
+        ],
+        "summary": {
+          "topBidCents": null,
+          "topAskCents": 48000,
+          "midCents": null,
+          "bidUnits": 0,
+          "askUnits": 2,
+          "bidDepthCents": 0,
+          "askDepthCents": 96000,
+          "imbalancePercent": -100.0
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "operation": "EdgeFairValues",
+  "variables": {
+    "input": {
+      "assetConfigurationId": "cfg_24tc_case"
+    }
+  },
+  "response": {
+    "data": {
+      "getKeyFairValuesByAssetConfig": {
+        "error": null,
+        "keys": []
+      }
+    }
+  }
+}

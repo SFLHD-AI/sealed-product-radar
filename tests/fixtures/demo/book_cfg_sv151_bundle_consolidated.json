@@ -1,0 +1,46 @@
+{
+  "operation": "EdgeOrderBook",
+  "variables": {
+    "input": {
+      "assetConfigurationId": "cfg_sv151_bundle",
+      "levelsLimit": 1
+    }
+  },
+  "response": {
+    "data": {
+      "getOrderBook": {
+        "error": null,
+        "sequence": "990002",
+        "serverNow": "2026-10-21T02:00:00Z",
+        "bids": [
+          {
+            "priceCents": 3900,
+            "quantity": 25,
+            "numMakers": 8,
+            "restingSince": "2026-10-20T14:00:00Z",
+            "lastChangedAt": "2026-10-21T02:00:00Z"
+          }
+        ],
+        "asks": [
+          {
+            "priceCents": 4200,
+            "quantity": 15,
+            "numMakers": 5,
+            "restingSince": "2026-10-20T20:00:00Z",
+            "lastChangedAt": "2026-10-21T02:00:00Z"
+          }
+        ],
+        "summary": {
+          "topBidCents": 3900,
+          "topAskCents": 4200,
+          "midCents": 4050,
+          "bidUnits": 65,
+          "askUnits": 45,
+          "bidDepthCents": 0,
+          "askDepthCents": 0,
+          "imbalancePercent": 18.2
+        }
+      }
+    }
+  }
+}

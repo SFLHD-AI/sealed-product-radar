@@ -1,0 +1,23 @@
+{
+  "operation": "EdgeTicker",
+  "variables": {
+    "input": {
+      "assetConfigurationId": "cfg_24tc_jumbo"
+    }
+  },
+  "response": {
+    "data": {
+      "getTicker": {
+        "error": null,
+        "keyTicker": {
+          "lastPriceCents": 44000,
+          "lastTradeAt": "2026-09-28T15:00:00Z",
+          "volume24h": "0",
+          "high24hCents": null,
+          "low24hCents": null,
+          "tradeCount24h": 0
+        }
+      }
+    }
+  }
+}

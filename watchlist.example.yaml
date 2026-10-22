@@ -1,0 +1,15 @@
+# edge watchlist watchlist.yaml [--dn-csv dealernet.csv]
+# Each product is searched on TPX (or pinned with tpx_id). Dealernet data comes
+# from --dn-csv (matched by name / mappings.yaml) or inline dn_bid / dn_ask.
+products:
+  - name: 2024 Topps Chrome Baseball Hobby Box
+    dn_bid: 252
+    dn_ask: 258
+    dn_qty: 3
+  - name: 2024 Topps Chrome Baseball Hobby Jumbo Box
+    tpx_id: cfg_24tc_jumbo        # optional: exact assetConfigurationId
+    dn_name: 24 Topps Chrome BB Jumbo   # optional: exact name in the Dealernet CSV
+  - name: Pokemon Scarlet & Violet 151 Booster Bundle
+    dn_bid: 39
+    dn_ask: 40
+    shipping: 6                   # $ per physical move, overrides box/case default

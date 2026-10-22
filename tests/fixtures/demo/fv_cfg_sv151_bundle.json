@@ -1,0 +1,26 @@
+{
+  "operation": "EdgeFairValues",
+  "variables": {
+    "input": {
+      "assetConfigurationId": "cfg_sv151_bundle"
+    }
+  },
+  "response": {
+    "data": {
+      "getKeyFairValuesByAssetConfig": {
+        "error": null,
+        "keys": [
+          {
+            "keyId": "key_tcg_mint",
+            "fairValues": [
+              {
+                "valueCents": 4080,
+                "modelVersion": "fv-2026.09"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

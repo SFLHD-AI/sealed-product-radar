@@ -1,0 +1,26 @@
+{
+  "operation": "EdgeFairValues",
+  "variables": {
+    "input": {
+      "assetConfigurationId": "cfg_24tc_hobby"
+    }
+  },
+  "response": {
+    "data": {
+      "getKeyFairValuesByAssetConfig": {
+        "error": null,
+        "keys": [
+          {
+            "keyId": "key_wax_mint",
+            "fairValues": [
+              {
+                "valueCents": 26650,
+                "modelVersion": "fv-2026.09"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

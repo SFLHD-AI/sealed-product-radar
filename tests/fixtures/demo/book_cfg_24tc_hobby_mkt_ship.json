@@ -1,0 +1,60 @@
+{
+  "operation": "EdgeOrderBook",
+  "variables": {
+    "input": {
+      "assetConfigurationId": "cfg_24tc_hobby",
+      "marketId": "mkt_ship"
+    }
+  },
+  "response": {
+    "data": {
+      "getOrderBook": {
+        "error": null,
+        "sequence": "4411",
+        "serverNow": "2026-10-21T02:00:00Z",
+        "bids": [
+          {
+            "priceCents": 25200,
+            "quantity": 2,
+            "numMakers": 1,
+            "restingSince": "2026-10-05T14:00:00Z",
+            "lastChangedAt": "2026-10-05T14:00:00Z"
+          },
+          {
+            "priceCents": 24800,
+            "quantity": 3,
+            "numMakers": 2,
+            "restingSince": "2026-10-01T09:00:00Z",
+            "lastChangedAt": "2026-10-01T09:00:00Z"
+          }
+        ],
+        "asks": [
+          {
+            "priceCents": 27900,
+            "quantity": 1,
+            "numMakers": 1,
+            "restingSince": "2026-10-20T20:00:00Z",
+            "lastChangedAt": "2026-10-20T20:00:00Z"
+          },
+          {
+            "priceCents": 28900,
+            "quantity": 3,
+            "numMakers": 2,
+            "restingSince": "2026-10-12T10:00:00Z",
+            "lastChangedAt": "2026-10-12T10:00:00Z"
+          }
+        ],
+        "summary": {
+          "topBidCents": 25200,
+          "topAskCents": 27900,
+          "midCents": 26550,
+          "bidUnits": 5,
+          "askUnits": 4,
+          "bidDepthCents": 124800,
+          "askDepthCents": 114600,
+          "imbalancePercent": 11.1
+        }
+      }
+    }
+  }
+}

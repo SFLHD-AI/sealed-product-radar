@@ -1,0 +1,23 @@
+{
+  "operation": "EdgeTicker",
+  "variables": {
+    "input": {
+      "assetConfigurationId": "cfg_sv151_bundle"
+    }
+  },
+  "response": {
+    "data": {
+      "getTicker": {
+        "error": null,
+        "keyTicker": {
+          "lastPriceCents": 4100,
+          "lastTradeAt": "2026-10-20T19:00:00Z",
+          "volume24h": "6",
+          "high24hCents": 4100,
+          "low24hCents": 4000,
+          "tradeCount24h": 3
+        }
+      }
+    }
+  }
+}

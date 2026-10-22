@@ -1,0 +1,21 @@
+{
+  "operation": "EdgeFairValues",
+  "variables": {
+    "input": {
+      "assetConfigurationId": "cfg_24tc_jumbo"
+    }
+  },
+  "response": {
+    "data": {
+      "getKeyFairValuesByAssetConfig": {
+        "error": null,
+        "keys": [
+          {
+            "keyId": "key_wax_mint",
+            "fairValues": []
+          }
+        ]
+      }
+    }
+  }
+}

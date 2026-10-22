@@ -1,0 +1,30 @@
+{
+  "operation": "EdgeOrderBook",
+  "variables": {
+    "input": {
+      "assetConfigurationId": "cfg_24tc_case",
+      "levelsLimit": 1
+    }
+  },
+  "response": {
+    "data": {
+      "getOrderBook": {
+        "error": null,
+        "sequence": "5",
+        "serverNow": "2026-10-21T02:00:00Z",
+        "bids": [],
+        "asks": [],
+        "summary": {
+          "topBidCents": null,
+          "topAskCents": null,
+          "midCents": null,
+          "bidUnits": 0,
+          "askUnits": 0,
+          "bidDepthCents": 0,
+          "askDepthCents": 0,
+          "imbalancePercent": 0
+        }
+      }
+    }
+  }
+}

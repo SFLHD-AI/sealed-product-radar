@@ -1,0 +1,46 @@
+{
+  "operation": "EdgeListKeyConfigurations",
+  "variables": {
+    "input": {
+      "assetTypeId": "at_sealed_wax"
+    }
+  },
+  "response": {
+    "data": {
+      "listKeyConfigurations": {
+        "error": null,
+        "keyConfigurations": [
+          {
+            "id": "kc_at_sealed_wax",
+            "assetTypeId": "at_sealed_wax",
+            "keyData": {
+              "keys": [
+                {
+                  "keyId": "key_wax_mint",
+                  "keyType": "SEALED_CONDITION",
+                  "value": "MINT",
+                  "displayName": "Factory Sealed (Mint)",
+                  "ancestors": []
+                },
+                {
+                  "keyId": "key_wax_nm",
+                  "keyType": "SEALED_CONDITION",
+                  "value": "NEAR_MINT",
+                  "displayName": "Near Mint",
+                  "ancestors": []
+                },
+                {
+                  "keyId": "key_wax_dmg",
+                  "keyType": "SEALED_CONDITION",
+                  "value": "DAMAGED",
+                  "displayName": "Damaged",
+                  "ancestors": []
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  }
+}

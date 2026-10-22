@@ -1,0 +1,23 @@
+{
+  "operation": "EdgeTicker",
+  "variables": {
+    "input": {
+      "assetConfigurationId": "cfg_24tc_hobby"
+    }
+  },
+  "response": {
+    "data": {
+      "getTicker": {
+        "error": null,
+        "keyTicker": {
+          "lastPriceCents": 26500,
+          "lastTradeAt": "2026-10-20T22:10:00Z",
+          "volume24h": "7",
+          "high24hCents": 27000,
+          "low24hCents": 26000,
+          "tradeCount24h": 4
+        }
+      }
+    }
+  }
+}

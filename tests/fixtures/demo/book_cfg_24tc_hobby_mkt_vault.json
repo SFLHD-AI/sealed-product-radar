@@ -1,0 +1,74 @@
+{
+  "operation": "EdgeOrderBook",
+  "variables": {
+    "input": {
+      "assetConfigurationId": "cfg_24tc_hobby",
+      "marketId": "mkt_vault"
+    }
+  },
+  "response": {
+    "data": {
+      "getOrderBook": {
+        "error": null,
+        "sequence": "88123",
+        "serverNow": "2026-10-21T02:00:00Z",
+        "bids": [
+          {
+            "priceCents": 25800,
+            "quantity": 4,
+            "numMakers": 2,
+            "restingSince": "2026-10-19T14:00:00Z",
+            "lastChangedAt": "2026-10-19T14:00:00Z"
+          },
+          {
+            "priceCents": 25500,
+            "quantity": 6,
+            "numMakers": 3,
+            "restingSince": "2026-10-18T09:00:00Z",
+            "lastChangedAt": "2026-10-18T09:00:00Z"
+          },
+          {
+            "priceCents": 25000,
+            "quantity": 10,
+            "numMakers": 4,
+            "restingSince": "2026-10-10T09:00:00Z",
+            "lastChangedAt": "2026-10-10T09:00:00Z"
+          }
+        ],
+        "asks": [
+          {
+            "priceCents": 27400,
+            "quantity": 2,
+            "numMakers": 1,
+            "restingSince": "2026-10-20T20:00:00Z",
+            "lastChangedAt": "2026-10-20T20:00:00Z"
+          },
+          {
+            "priceCents": 27900,
+            "quantity": 5,
+            "numMakers": 2,
+            "restingSince": "2026-10-17T10:00:00Z",
+            "lastChangedAt": "2026-10-17T10:00:00Z"
+          },
+          {
+            "priceCents": 28500,
+            "quantity": 8,
+            "numMakers": 3,
+            "restingSince": "2026-10-01T10:00:00Z",
+            "lastChangedAt": "2026-10-01T10:00:00Z"
+          }
+        ],
+        "summary": {
+          "topBidCents": 25800,
+          "topAskCents": 27400,
+          "midCents": 26600,
+          "bidUnits": 20,
+          "askUnits": 15,
+          "bidDepthCents": 506200,
+          "askDepthCents": 422300,
+          "imbalancePercent": 14.3
+        }
+      }
+    }
+  }
+}

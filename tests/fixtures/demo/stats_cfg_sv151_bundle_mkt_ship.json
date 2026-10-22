@@ -1,0 +1,45 @@
+{
+  "operation": "EdgeProductMarketStats",
+  "variables": {
+    "input": {
+      "assetConfigurationId": "cfg_sv151_bundle",
+      "marketId": "mkt_ship",
+      "periodDays": 30
+    }
+  },
+  "response": {
+    "data": {
+      "getProductMarket": {
+        "error": null,
+        "stats": {
+          "vwapCents": 4080,
+          "unitVolume": "40",
+          "tradeCount": 17,
+          "priceChangePercent": 5.0,
+          "holderCount": 1544,
+          "lastTradeAt": "2026-10-20T19:00:00Z"
+        },
+        "depth": {
+          "bidUnits": 0,
+          "askUnits": 0
+        },
+        "priceSeries": [
+          {
+            "date": "2026-10-01",
+            "volumeCents": null,
+            "unitsSold": 2,
+            "tradeCount": null,
+            "averageSalePriceCents": 3580
+          },
+          {
+            "date": "2026-10-20",
+            "volumeCents": null,
+            "unitsSold": 3,
+            "tradeCount": null,
+            "averageSalePriceCents": 4080
+          }
+        ]
+      }
+    }
+  }
+}

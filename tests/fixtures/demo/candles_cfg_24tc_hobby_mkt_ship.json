@@ -1,0 +1,319 @@
+{
+  "operation": "EdgeCandles",
+  "variables": {
+    "input": {
+      "assetConfigurationId": "cfg_24tc_hobby",
+      "marketId": "mkt_ship",
+      "interval": "D1"
+    }
+  },
+  "response": {
+    "data": {
+      "getCandles": {
+        "error": null,
+        "candles": [
+          {
+            "openCents": 26000,
+            "highCents": 26180,
+            "lowCents": 25850,
+            "closeCents": 26030,
+            "volume": "0",
+            "vwapCents": 26015,
+            "bucket": "2026-09-21T00:00:00Z",
+            "trades": null
+          },
+          {
+            "openCents": 26030,
+            "highCents": 26210,
+            "lowCents": 25880,
+            "closeCents": 26060,
+            "volume": "0",
+            "vwapCents": 26045,
+            "bucket": "2026-09-22T00:00:00Z",
+            "trades": null
+          },
+          {
+            "openCents": 26060,
+            "highCents": 26240,
+            "lowCents": 25910,
+            "closeCents": 26090,
+            "volume": "0",
+            "vwapCents": 26075,
+            "bucket": "2026-09-23T00:00:00Z",
+            "trades": null
+          },
+          {
+            "openCents": 26090,
+            "highCents": 26270,
+            "lowCents": 25940,
+            "closeCents": 26120,
+            "volume": "0",
+            "vwapCents": 26105,
+            "bucket": "2026-09-24T00:00:00Z",
+            "trades": null
+          },
+          {
+            "openCents": 26120,
+            "highCents": 26300,
+            "lowCents": 25970,
+            "closeCents": 26150,
+            "volume": "0",
+            "vwapCents": 26135,
+            "bucket": "2026-09-25T00:00:00Z",
+            "trades": null
+          },
+          {
+            "openCents": 26150,
+            "highCents": 26330,
+            "lowCents": 26000,
+            "closeCents": 26180,
+            "volume": "0",
+            "vwapCents": 26165,
+            "bucket": "2026-09-26T00:00:00Z",
+            "trades": null
+          },
+          {
+            "openCents": 26180,
+            "highCents": 26360,
+            "lowCents": 26030,
+            "closeCents": 26210,
+            "volume": "0",
+            "vwapCents": 26195,
+            "bucket": "2026-09-27T00:00:00Z",
+            "trades": null
+          },
+          {
+            "openCents": 26210,
+            "highCents": 26390,
+            "lowCents": 26060,
+            "closeCents": 26240,
+            "volume": "0",
+            "vwapCents": 26225,
+            "bucket": "2026-09-28T00:00:00Z",
+            "trades": null
+          },
+          {
+            "openCents": 26240,
+            "highCents": 26420,
+            "lowCents": 26090,
+            "closeCents": 26270,
+            "volume": "0",
+            "vwapCents": 26255,
+            "bucket": "2026-09-29T00:00:00Z",
+            "trades": null
+          },
+          {
+            "openCents": 26270,
+            "highCents": 26450,
+            "lowCents": 26120,
+            "closeCents": 26300,
+            "volume": "0",
+            "vwapCents": 26285,
+            "bucket": "2026-09-30T00:00:00Z",
+            "trades": null
+          },
+          {
+            "openCents": 26300,
+            "highCents": 26480,
+            "lowCents": 26150,
+            "closeCents": 26330,
+            "volume": "0",
+            "vwapCents": 26315,
+            "bucket": "2026-10-01T00:00:00Z",
+            "trades": null
+          },
+          {
+            "openCents": 26330,
+            "highCents": 26510,
+            "lowCents": 26180,
+            "closeCents": 26360,
+            "volume": "0",
+            "vwapCents": 26345,
+            "bucket": "2026-10-02T00:00:00Z",
+            "trades": null
+          },
+          {
+            "openCents": 26360,
+            "highCents": 26540,
+            "lowCents": 26210,
+            "closeCents": 26390,
+            "volume": "0",
+            "vwapCents": 26375,
+            "bucket": "2026-10-03T00:00:00Z",
+            "trades": null
+          },
+          {
+            "openCents": 26390,
+            "highCents": 26570,
+            "lowCents": 26240,
+            "closeCents": 26420,
+            "volume": "0",
+            "vwapCents": 26405,
+            "bucket": "2026-10-04T00:00:00Z",
+            "trades": null
+          },
+          {
+            "openCents": 26420,
+            "highCents": 26600,
+            "lowCents": 26270,
+            "closeCents": 26450,
+            "volume": "0",
+            "vwapCents": 26435,
+            "bucket": "2026-10-05T00:00:00Z",
+            "trades": null
+          },
+          {
+            "openCents": 26450,
+            "highCents": 26630,
+            "lowCents": 26300,
+            "closeCents": 26480,
+            "volume": "0",
+            "vwapCents": 26465,
+            "bucket": "2026-10-06T00:00:00Z",
+            "trades": null
+          },
+          {
+            "openCents": 26480,
+            "highCents": 26660,
+            "lowCents": 26330,
+            "closeCents": 26510,
+            "volume": "0",
+            "vwapCents": 26495,
+            "bucket": "2026-10-07T00:00:00Z",
+            "trades": null
+          },
+          {
+            "openCents": 26510,
+            "highCents": 26690,
+            "lowCents": 26360,
+            "closeCents": 26540,
+            "volume": "0",
+            "vwapCents": 26525,
+            "bucket": "2026-10-08T00:00:00Z",
+            "trades": null
+          },
+          {
+            "openCents": 26540,
+            "highCents": 26720,
+            "lowCents": 26390,
+            "closeCents": 26570,
+            "volume": "0",
+            "vwapCents": 26555,
+            "bucket": "2026-10-09T00:00:00Z",
+            "trades": null
+          },
+          {
+            "openCents": 26570,
+            "highCents": 26750,
+            "lowCents": 26420,
+            "closeCents": 26600,
+            "volume": "0",
+            "vwapCents": 26585,
+            "bucket": "2026-10-10T00:00:00Z",
+            "trades": null
+          },
+          {
+            "openCents": 26600,
+            "highCents": 26780,
+            "lowCents": 26450,
+            "closeCents": 26630,
+            "volume": "0",
+            "vwapCents": 26615,
+            "bucket": "2026-10-11T00:00:00Z",
+            "trades": null
+          },
+          {
+            "openCents": 26630,
+            "highCents": 26810,
+            "lowCents": 26480,
+            "closeCents": 26660,
+            "volume": "0",
+            "vwapCents": 26645,
+            "bucket": "2026-10-12T00:00:00Z",
+            "trades": null
+          },
+          {
+            "openCents": 26660,
+            "highCents": 26840,
+            "lowCents": 26510,
+            "closeCents": 26690,
+            "volume": "0",
+            "vwapCents": 26675,
+            "bucket": "2026-10-13T00:00:00Z",
+            "trades": null
+          },
+          {
+            "openCents": 26690,
+            "highCents": 26870,
+            "lowCents": 26540,
+            "closeCents": 26720,
+            "volume": "0",
+            "vwapCents": 26705,
+            "bucket": "2026-10-14T00:00:00Z",
+            "trades": null
+          },
+          {
+            "openCents": 26720,
+            "highCents": 26900,
+            "lowCents": 26570,
+            "closeCents": 26750,
+            "volume": "0",
+            "vwapCents": 26735,
+            "bucket": "2026-10-15T00:00:00Z",
+            "trades": null
+          },
+          {
+            "openCents": 26750,
+            "highCents": 26930,
+            "lowCents": 26600,
+            "closeCents": 26780,
+            "volume": "0",
+            "vwapCents": 26765,
+            "bucket": "2026-10-16T00:00:00Z",
+            "trades": null
+          },
+          {
+            "openCents": 26780,
+            "highCents": 26960,
+            "lowCents": 26630,
+            "closeCents": 26810,
+            "volume": "0",
+            "vwapCents": 26795,
+            "bucket": "2026-10-17T00:00:00Z",
+            "trades": null
+          },
+          {
+            "openCents": 26810,
+            "highCents": 26990,
+            "lowCents": 26660,
+            "closeCents": 26840,
+            "volume": "0",
+            "vwapCents": 26825,
+            "bucket": "2026-10-18T00:00:00Z",
+            "trades": null
+          },
+          {
+            "openCents": 26840,
+            "highCents": 27020,
+            "lowCents": 26690,
+            "closeCents": 26870,
+            "volume": "0",
+            "vwapCents": 26855,
+            "bucket": "2026-10-19T00:00:00Z",
+            "trades": null
+          },
+          {
+            "openCents": 26870,
+            "highCents": 27050,
+            "lowCents": 26720,
+            "closeCents": 26900,
+            "volume": "0",
+            "vwapCents": 26885,
+            "bucket": "2026-10-20T00:00:00Z",
+            "trades": null
+          }
+        ]
+      }
+    }
+  }
+}
